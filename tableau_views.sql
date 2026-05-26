@@ -2,7 +2,7 @@
 Create view executive_kpi_view as 
 select count(*) total_customers, 
 sum(case when Churn = 'Yes' then 1 else 0 end) churned_customers,
-round(100 * sum(case when Churn = 'Yes' then 1 else 0 end),2) churn_rate,
+round(100 * sum(case when Churn = 'Yes' then 1 else 0 end) / count(*),2) churn_rate,
 round(avg(MonthlyCharges), 2) avg_monthly_charge,
 round(avg(tenure),2) avg_tenure,
 round(sum(TotalCharges), 2) total_revenue
@@ -15,7 +15,7 @@ select * from executive_kpi_view;
 create view churn_analysis_view as
 select Contract, InternetService, PaymentMethod, count(*) total_customers,
 sum(case when Churn = 'Yes' then 1 else 0 end) churned_customers,
-round(100 * sum(case when Churn = 'Yes' then 1 else 0 end),2) churn_rate
+round(100 * sum(case when Churn = 'Yes' then 1 else 0 end) / count(*) ,2) churn_rate
 from customer_churn
 group by Contract, InternetService, PaymentMethod;
 
