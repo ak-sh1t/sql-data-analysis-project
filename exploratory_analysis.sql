@@ -3,7 +3,7 @@
 
 
 
-#--analysis queries--#
+#--churned vs non-churned customers through various aspects--#
 select churn, count(*) customers, 
 round(100 * count(*) / (select count(*) from customer_churn), 2) percentage
 from customer_churn
