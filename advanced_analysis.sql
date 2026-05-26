@@ -1,4 +1,4 @@
-#--advanced analysis--#
+#--revenue contribution by customer group--#
 select Contract, count(*) total_customers,
 round(sum(TotalCharges), 2) total_revenue,
 round(avg(TotalCharges), 2) avg_revenue_per_customer from customer_churn
