@@ -1,4 +1,4 @@
-#--tableau-ready sql views--#
+#--sql views--#
 Create view executive_kpi_view as 
 select count(*) total_customers, 
 sum(case when Churn = 'Yes' then 1 else 0 end) churned_customers,
