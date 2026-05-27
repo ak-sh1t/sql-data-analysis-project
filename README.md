@@ -51,3 +51,9 @@ which segments churn most, and which customers need immediate retention focus.
 3. Investigate Fiber Optic pricing — high charges correlate with churn
 4. Simplify Electronic Check process — possible payment friction
 
+
+# About Me
+
+Akshit Singh — Aspiring Data Analyst  
+📧 akshits.biz@gmail.com  
+🔗 [LinkedIn](linkedin.com/in/akshit-singh-3bb5b1291) 
