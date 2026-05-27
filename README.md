@@ -22,13 +22,9 @@ which segments churn most, and which customers need immediate retention focus.
 
 
 # Dataset
-
-- Source: IBM Telco Customer Churn Dataset (via Kaggle)
+- Source: [IBM Telco Customer Churn — Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 - Records: 7,043 customers
-- Table: `customer_churn`
-- Key columns: `customerID`, `gender`, `SeniorCitizen`, `tenure`,
-  `MonthlyCharges`, `TotalCharges`, `Contract`, `InternetService`,
-  `PaymentMethod`, `Churn`
+- Format: CSV
 
 
 # Tools Used
