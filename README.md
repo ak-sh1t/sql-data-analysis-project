@@ -57,4 +57,4 @@ which segments churn most, and which customers need immediate retention focus.
 **Akshit Singh** — Aspiring Data Analyst
 📧 akshits.biz@gmail.com
 🔗 [LinkedIn](https://www.linkedin.com/in/akshit-singh-3bb5b1291)
-🐙 [GitHub](https://github.com/ak-sh1t)
+🐙 [GitHub](https://github.com/akshit-dsa)
